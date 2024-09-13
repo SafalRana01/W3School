@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  /* padding: 0rem 1rem; */
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+}
+
+nav .logo {
+  cursor: pointer;
+}
+
+nav .nav-left ul {
+  display: flex;
+  list-style-type: none;
+  padding: 1rem;
+  /* text-decoration: none; */
+}
+
+nav .nav-left ul li {
+  padding: 0rem 1rem;
+  /* text-decoration: none; */
+  display: inline-block;
+}
+
+nav .nav-left ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 1rem;
+}
+
+nav .nav-left ul li a:hover {
+  background-color: green;
+}
+
+nav .search-box {
+  border: 1px solid red;
+  border-radius: 1rem;
+  padding: 05px;
+}
+
+nav input {
+  background: transparent;
+  border: none;
+  width: 100px;
+}
+
+nav .nav-right button {
+  background-color: green;
+  padding: 10px;
+  border-radius: 1rem;
+  width: 100px;
+  font-size: 20px;
+}
+
+.nav-down {
+  display: flex;
+  background-color: #282a35 !important;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-down span {
+  /* display: inline-block; */
+  padding: 0.5rem;
+}
+
+.nav-down span:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+section .body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 480px;
+}
+section .body h1 {
+  font-size: 50px;
+  color: white;
+  margin: 1rem;
+}
+
+section .body p {
+  color: #fff4a3;
+  font-size: 21px;
+  font-weight: 550;
+  margin: 1.5rem;
+}
+
+section .main-search {
+  background-color: green;
+  width: 30%;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+section .main-search i {
+  background-color: var(--bs-green);
+  height: 50px;
+  width: 75px;
+  font-size: 22px;
+  border-radius: 0 50px 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: white; */
+}
+
+section .main-search input {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px 0 0 50px;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+section .body a {
+  display: block;
+  color: white;
+  font-size: 22px;
+  font-weight: 550;
+  margin: 20px 0;
+}
+
+.section .body a:hover {
+  color: #fff4a3;
+}
+
+section .body img {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
