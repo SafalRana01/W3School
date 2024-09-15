@@ -40,7 +40,7 @@ nav .nav-left ul li a:hover {
 }
 
 nav .search-box {
-  border: 1px solid red;
+  border: 1px solid rgb(228, 221, 221);
   border-radius: 1rem;
   padding: 05px;
 }
@@ -153,14 +153,15 @@ nav .nav-right button {
   height: 646px;
 }
 
-.section-second {
+.HtmlSection {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #d9eee1 !important;
+  margin-top: -5px;
 }
 
-.section-second .second-left {
+.HtmlSection .second-left {
   display: flex;
   text-align: center;
   /* justify-content: flex-start; */
@@ -170,59 +171,59 @@ nav .nav-right button {
   margin-right: 4rem;
 }
 
-.section-second .second-left h1 {
+.HtmlSection .second-left h1 {
   font-size: 80px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-bottom: 1rem;
 }
 
-.section-second .second-left p {
+.HtmlSection .second-left p {
   font-size: 25px;
   margin-bottom: 1rem;
   font-weight: bold;
 }
 
-.section-second .second-left button {
+.HtmlSection .second-left button {
   margin-top: 1rem;
-  margin-left: 4rem;
+  margin-left: 5rem;
   border-radius: 50px;
   padding: 1rem;
   border: none;
   font-size: 15.5px;
-  width: 70%;
+  width: 200px;
 }
 
-.section-second .second-left .green {
+.HtmlSection .second-left .green {
   background-color: rgb(89, 222, 89);
   color: white;
 }
 
-.section-second .second-left .green:hover {
+.HtmlSection .second-left .green:hover {
   background-color: rgb(132, 225, 132);
 }
 
-.section-second .second-left .yellow {
+.HtmlSection .second-left .yellow {
   background-color: hwb(60 22% 16%);
 }
 
-.section-second .second-left .yellow:hover {
+.HtmlSection .second-left .yellow:hover {
   background-color: #fff4a3;
 }
 
-.section-second .second-left .black {
+.HtmlSection .second-left .black {
   background-color: #0d0c0c;
   color: white;
 }
 
-.section-second .second-left .black:hover {
+.HtmlSection .second-left .black:hover {
   background-color: rgb(44, 34, 34);
 }
 
-.section-second .second-left .pink {
+.HtmlSection .second-left .pink {
   background-color: pink;
 }
 
-.section-second .second-left .pink:hover {
+.HtmlSection .second-left .pink:hover {
   background-color: rgb(239, 127, 146);
 }
 
@@ -270,4 +271,466 @@ nav .nav-right button {
   background-color: rgb(125, 236, 125);
   color: white;
   margin-right: 210px;
+}
+
+/* css section start from here */
+
+.CssSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff078 !important;
+}
+
+.CssSection .third-left {
+  display: flex;
+  text-align: center;
+  /* justify-content: flex-start; */
+  flex-direction: column;
+  padding: 2rem;
+  margin-right: 4rem;
+}
+
+.CssSection .third-left h1 {
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.CssSection .third-left p {
+  font-size: 25px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.CssSection .third-left button {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  border-radius: 50px;
+  padding: 1rem;
+  border: none;
+  font-size: 15.5px;
+  width: 200px;
+}
+
+.CssSection .third-left .green {
+  background-color: rgb(89, 222, 89);
+  color: white;
+}
+
+.CssSection .third-left .green:hover {
+  background-color: rgb(132, 225, 132);
+}
+
+.CssSection .third-left .black {
+  background-color: #0d0c0c;
+  color: white;
+}
+
+.CssSection .third-left .black:hover {
+  background-color: rgb(44, 34, 34);
+}
+
+.CssSection .third-left .pink {
+  background-color: pink;
+}
+
+.CssSection .third-left .pink:hover {
+  background-color: rgb(239, 127, 146);
+}
+
+.third-right {
+  /* border: 3px solid black; */
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  width: 400px;
+  background-color: #f5f5f5;
+  margin-bottom: 3rem;
+}
+
+.third-right h4 {
+  margin-bottom: 2rem;
+  text-align: start;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.third-right .CssCode {
+  /* border: 2px solid red; */
+  width: 100%;
+  background-color: white;
+}
+
+.third-right span {
+  display: block;
+  padding: 5px 2rem;
+  font-size: 16px;
+}
+
+.third-right .try_button {
+  margin-top: 1rem;
+  border-radius: 50px;
+  padding: 0.5rem;
+  border: none;
+  font-size: 15.5px;
+  width: 125px;
+  background-color: rgb(125, 236, 125);
+  color: white;
+  margin-right: 210px;
+}
+
+/* javascript */
+
+.JavaScriptSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black !important;
+  color: white;
+}
+
+.JavaScriptSection .forth-left {
+  display: flex;
+  text-align: center;
+  /* justify-content: flex-start; */
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.JavaScriptSection .forth-left h1 {
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.JavaScriptSection .forth-left p {
+  font-size: 25px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.JavaScriptSection .forth-left button {
+  margin-top: 1rem;
+  margin-left: 7rem;
+  border-radius: 50px;
+  padding: 1rem;
+  border: none;
+  font-size: 15.5px;
+  width: 200px;
+}
+
+.JavaScriptSection .forth-left .green {
+  background-color: rgb(89, 222, 89);
+  color: white;
+}
+
+.JavaScriptSection .forth-left .green:hover {
+  background-color: rgb(132, 225, 132);
+}
+
+.JavaScriptSection .forth-left .white {
+  background-color: white;
+  color: black;
+}
+
+.JavaScriptSection .forth-left .white:hover {
+  background-color: rgb(236, 232, 232);
+}
+
+.JavaScriptSection .forth-left .pink {
+  background-color: pink;
+}
+
+.JavaScriptSection .forth-left .pink:hover {
+  background-color: rgb(239, 127, 146);
+}
+
+.forth-right {
+  /* border: 3px solid black; */
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  width: 420px;
+  background-color: #f5f5f5;
+  margin-bottom: 3rem;
+  color: black;
+  margin-left: 2rem;
+}
+
+.forth-right h4 {
+  margin-bottom: 2rem;
+  text-align: start;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.forth-right .JavaScriptCode {
+  /* border: 2px solid red; */
+  width: 100%;
+  background-color: white;
+}
+
+.forth-right span {
+  display: block;
+  padding: 5px 2rem;
+  font-size: 16px;
+}
+
+.forth-right .try_button {
+  margin-top: 1rem;
+  border-radius: 50px;
+  padding: 0.5rem;
+  border: none;
+  font-size: 15.5px;
+  width: 125px;
+  background-color: rgb(125, 236, 125);
+  color: white;
+  margin-right: 210px;
+}
+
+/* python css */
+
+.PythonSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: E9EFEC !important;
+}
+
+.PythonSection .fifth-left {
+  display: flex;
+  text-align: center;
+  /* justify-content: flex-start; */
+  flex-direction: column;
+  padding: 2rem;
+  margin-right: 4rem;
+}
+
+.PythonSection .fifth-left h1 {
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.PythonSection .fifth-left p {
+  font-size: 25px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.PythonSection .fifth-left button {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  border-radius: 50px;
+  padding: 1rem;
+  border: none;
+  font-size: 15.5px;
+  width: 200px;
+}
+
+.PythonSection .fifth-left .green {
+  background-color: rgb(89, 222, 89);
+  color: white;
+}
+
+.PythonSection .fifth-left .green:hover {
+  background-color: rgb(132, 225, 132);
+}
+
+.PythonSection .fifth-left .black {
+  background-color: #0d0c0c;
+  color: white;
+}
+
+.PythonSection .fifth-left .black:hover {
+  background-color: rgb(44, 34, 34);
+}
+
+.PythonSection .fifth-left .pink {
+  background-color: pink;
+}
+
+.PythonSection .fifth-left .pink:hover {
+  background-color: rgb(239, 127, 146);
+}
+
+.fifth-right {
+  /* border: 3px solid black; */
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  width: 400px;
+  background-color: #f5f5f5;
+  margin-bottom: 3rem;
+}
+
+.fifth-right h4 {
+  margin-bottom: 2rem;
+  text-align: start;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.fifth-right .PythonCode {
+  /* border: 2px solid red; */
+  width: 100%;
+  background-color: white;
+  height: 150px;
+}
+
+.fifth-right span {
+  display: block;
+  padding: 5px 2rem;
+  font-size: 16px;
+}
+
+.fifth-right .try_button {
+  margin-top: 2rem;
+  border-radius: 50px;
+  padding: 0.5rem;
+  border: none;
+  font-size: 15.5px;
+  width: 125px;
+  background-color: rgb(125, 236, 125);
+  color: white;
+  margin-right: 210px;
+}
+
+/* SQL Section  */
+.SqlSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6cbec7 !important;
+}
+
+.SqlSection .sixth-left {
+  display: flex;
+  text-align: center;
+  /* justify-content: flex-start; */
+  flex-direction: column;
+  padding: 2rem;
+  margin-right: 4rem;
+}
+
+.SqlSection .sixth-left h1 {
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.SqlSection .sixth-left p {
+  font-size: 25px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.SqlSection .sixth-left button {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  border-radius: 50px;
+  padding: 1rem;
+  border: none;
+  font-size: 15.5px;
+  width: 200px;
+}
+
+.SqlSection .sixth-left .green {
+  background-color: rgb(89, 222, 89);
+  color: white;
+}
+
+.SqlSection .sixth-left .green:hover {
+  background-color: rgb(132, 225, 132);
+}
+
+.SqlSection .sixth-left .black {
+  background-color: #0d0c0c;
+  color: white;
+}
+
+.SqlSection .sixth-left .black:hover {
+  background-color: rgb(44, 34, 34);
+}
+
+.SqlSection .sixth-left .pink {
+  background-color: pink;
+}
+
+.SqlSection .sixth-left .pink:hover {
+  background-color: rgb(239, 127, 146);
+}
+
+.sixth-right {
+  /* border: 3px solid black; */
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  width: 400px;
+  background-color: #f5f5f5;
+  margin-bottom: 3rem;
+}
+
+.sixth-right h4 {
+  margin-bottom: 2rem;
+  text-align: start;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.sixth-right .SqlCode {
+  /* border: 2px solid red; */
+  width: 100%;
+  background-color: white;
+  height: 150px;
+}
+
+.sixth-right span {
+  display: block;
+  padding: 5px 2rem;
+  font-size: 16px;
+}
+
+.sixth-right .try_button {
+  margin-top: 2rem;
+  border-radius: 50px;
+  padding: 0.5rem;
+  border: none;
+  font-size: 15.5px;
+  width: 125px;
+  background-color: rgb(125, 236, 125);
+  color: white;
+  margin-right: 210px;
+}
+
+.middleSection {
 }
