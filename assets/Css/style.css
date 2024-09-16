@@ -159,6 +159,7 @@ nav .nav-right button {
   justify-content: center;
   background-color: #d9eee1 !important;
   margin-top: -5px;
+  flex-wrap: wrap;
 }
 
 .HtmlSection .second-left {
@@ -280,6 +281,7 @@ nav .nav-right button {
   align-items: center;
   justify-content: center;
   background-color: #fff078 !important;
+  flex-wrap: wrap;
 }
 
 .CssSection .third-left {
@@ -395,6 +397,7 @@ nav .nav-right button {
   justify-content: center;
   background-color: black !important;
   color: white;
+  flex-wrap: wrap;
 }
 
 .JavaScriptSection .forth-left {
@@ -509,7 +512,8 @@ nav .nav-right button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: E9EFEC !important;
+  background-color: #e9efec !important;
+  flex-wrap: wrap;
 }
 
 .PythonSection .fifth-left {
@@ -624,6 +628,7 @@ nav .nav-right button {
   align-items: center;
   justify-content: center;
   background-color: #6cbec7 !important;
+  flex-wrap: wrap;
 }
 
 .SqlSection .sixth-left {
@@ -733,4 +738,274 @@ nav .nav-right button {
 }
 
 .middleSection {
+  background-color: #282a35 !important;
+}
+
+.middleSection .flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  margin: 100px 100px 0px 100px;
+  width: 600px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.middleSection .flex-container .box-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: pink;
+}
+
+.middleSection .flex-container .box-1 h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.middleSection .flex-container .box-1 p {
+  text-align: center;
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+.middleSection .flex-container .box-1 button {
+  padding: 1rem;
+  border-radius: 50px;
+  margin-top: 15px;
+  width: 150px;
+  font-size: 17px;
+  border: none;
+  color: white;
+  background-color: rgba(7, 7, 7, 0.817);
+}
+
+.middleSection .flex-container .box-1 button:hover {
+  background-color: black;
+}
+
+.middleSection .flex-container .box-2 {
+  background-color: #fff4a3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.middleSection .flex-container .box-2 h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.middleSection .flex-container .box-2 p {
+  text-align: center;
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+.middleSection .flex-container .box-2 button {
+  padding: 1rem;
+  border-radius: 50px;
+  margin-top: 15px;
+  width: 150px;
+  font-size: 17px;
+  border: none;
+  color: white;
+  background-color: rgba(7, 7, 7, 0.817);
+}
+
+.middleSection .flex-container .box-2 button:hover {
+  background-color: black;
+}
+
+.middleSection .flex-container .box-3 {
+  background-color: #f3ecea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.middleSection .flex-container .box-3 h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.middleSection .flex-container .box-3 p {
+  text-align: center;
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+.middleSection .flex-container .box-3 button {
+  padding: 1rem;
+  border-radius: 50px;
+  margin-top: 15px;
+  width: 150px;
+  font-size: 17px;
+  border: none;
+  color: white;
+  background-color: rgba(7, 7, 7, 0.817);
+}
+
+.middleSection .flex-container .box-3 button:hover {
+  background-color: black;
+}
+
+.middleSection .flex-container .box-4 {
+  background-color: #d9eee1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.middleSection .flex-container .box-4 h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.middleSection .flex-container .box-4 p {
+  text-align: center;
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+.middleSection .flex-container .box-4 button {
+  padding: 1rem;
+  border-radius: 50px;
+  margin-top: 15px;
+  width: 150px;
+  font-size: 17px;
+  border: none;
+  color: white;
+  background-color: rgba(7, 7, 7, 0.817);
+}
+
+.middleSection .flex-container .box-4 button:hover {
+  background-color: black;
+}
+
+.middleSection .flex-container .box-5 {
+  background-color: #96d4d4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.middleSection .flex-container .box-5 h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.middleSection .flex-container .box-5 p {
+  text-align: center;
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+.middleSection .flex-container .box-5 button {
+  padding: 1rem;
+  border-radius: 50px;
+  margin-top: 15px;
+  width: 150px;
+  font-size: 17px;
+  border: none;
+  color: white;
+  background-color: rgba(7, 7, 7, 0.817);
+}
+
+.middleSection .flex-container .box-5 button:hover {
+  background-color: black;
+}
+
+.middleSection .flex-container .box-6 {
+  background-color: #efe9eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.middleSection .flex-container .box-6 h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.middleSection .flex-container .box-6 p {
+  text-align: center;
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+.middleSection .flex-container .box-6 button {
+  padding: 1rem;
+  border-radius: 50px;
+  margin-top: 15px;
+  width: 200px;
+  font-size: 17px;
+  border: none;
+  color: white;
+  background-color: rgba(7, 7, 7, 0.817);
+}
+
+.middleSection .flex-container .box-6 button:hover {
+  background-color: black;
+}
+
+.last-session {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: #282a35 !important;
+}
+
+.last-session .big-box {
+  display: flex;
+  /* border: 2px solid green; */
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 100px 0px 50px 0px;
+}
+
+.last-session .big-box div {
+  /* border: 2px solid red; */
+  width: 600px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.last-session .big-box .C {
+  background-color: #ffc0c7;
+  margin-left: 30px;
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.last-session .big-box .CC {
+  background-color: #ffc0c7;
+  margin-right: 35px;
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 617px) {
 }
